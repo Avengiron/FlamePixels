@@ -1,6 +1,8 @@
 # FlamePixels
 Dessine et anime une flamme
 
+(version java d'un projet Processing, nécessite la bibliothèque processing core.jar)
+
 La flamme consiste a un ensemble de cercles qui apparaissent a la position de la flamme. 
 On applique un algorithme similaire aux marching squares pour calculer des valeurs de proximités par
 rapport aux cercles. Tous les calculs sont fait localement dans une zone qui délimite la flamme. 
